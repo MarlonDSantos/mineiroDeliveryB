@@ -1,0 +1,10 @@
+.bg-laranjaNav{
+    background-color: #ff6a00;
+}
+
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: 40px;
+}
