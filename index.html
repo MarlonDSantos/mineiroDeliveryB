@@ -6,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="img/icofont/icofont.min.css">
     <link rel="stylesheet" href="css/app.css">
     <title>Mineiro Delivery</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-laranjaNav">
+    <nav class="navbar navbar-expand-lg bg-laranjaNav configNavbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="img/logo-mineiro.png" width="120px" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="icofont-navigation-menu"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -24,7 +26,10 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="empresa.html">Empresa</a>
+                        <a class="nav-link" href="empresa.html">A Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clientes.html">Clientes e Parceiros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="produtos.html">Produtos</a>
@@ -36,7 +41,111 @@
             </div>
         </div>
     </nav>
-    
+    <main>
+        <div class="container">
+            <!-- BANNER -->
+            <div class="row">
+                <div class="col-md-12 col-12 pb-5 pt-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/upload/bannersafe-delivery.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/upload/Bannerdelivery.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/upload/banner.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <!-- Controles -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARDS-->
+            <div class="row">
+                <!-- CARDS-->
+                <div class="col-sm-4 col-12">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-img">
+                            <img src="img/chapinha.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Vinho Tinto Suave Chapinha 750ml</h5>
+                            <p class="card-text">R$ 9,90</p>
+                            <a href="#" class="btn btn-primary">Add Carrinho</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARDS-->
+                <div class="col-sm-4 col-12">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-img">
+                            <img src="img/Spaten.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">CERVEJA SPATEN 600ML - CX COM 12 UN</h5>
+                            <p class="card-text">R$ 99,90</p>
+                            <a href="#" class="btn btn-primary">Add Carrinho</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARDS-->
+                <div class="col-sm-4 col-12">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-img">
+                            <img src="img/GuaranaJesusLata.webp" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Guaraná Jesus 355ml</h5>
+                            <p class="card-text">R$ 4,50 </p>
+                            <a href="#" class="btn btn-primary">Add Carrinho</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARDS-->
+                <div class="col-sm-4 col-12">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-img">
+                            <img src="img/GuaranaJesus.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Guaraná Jesus 2 litros</h5>
+                            <p class="card-text">R$ 8,90</p>
+                            <a href="#" class="btn btn-primary">Add Carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="page-footer">
+        <div class="container">
+
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2022 Copyright Todos os direitos reservados
+                <a class="right" href="mailto:marlonmx5@hotmail.com">Feito por MáRLoN Santos</a>
+            </div>
+        </div>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 

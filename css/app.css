@@ -1,10 +1,72 @@
 .bg-laranjaNav{
-    background-color: #ff6a00;
+    /* background-color: #ff6a00; */
+    background-color: #941112;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+
+}
+/* Limitar altura do card */
+.card-img{
+    max-height: 620px;
+    overflow: hidden;
 }
 
+@media screen and (min-width:990px){
+    
 .navbar-brand{
     position: absolute;
     left: 50%;
     margin-left: -60px;
-    margin-top: 40px;
+    margin-top: -9px;
+    top: 0;
+}
+/* Efeito hover na navegação */
+.nav-link:hover, .nav-link.active{
+    background-color: #94111183;
+    color: #fff!important;
+    transition: all 0.7s;
+}
+.nav-link{
+    transition: all 0.7s;
+}
+
+.configNavbar{
+    height: 100px;
+
+}
+li.nav-item a{
+    padding: 37px 0;
+}
+}
+.icofont-navigation-menu{
+color: #94111183;
+}
+
+/* FOOTER */
+.page-footer{
+    position: fixed;
+    width: 100%;
+    /* height: 50px; */
+    bottom: 0;
+    background-color: #941112;
+}
+.page-footer, .footer-copyright{
+    padding: 15px 0;
+}
+.footer-copyright *{
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer-copyright a:hover{
+    color: black;
+}
+.right{
+    float: right;
+    text-decoration: none;
 }
