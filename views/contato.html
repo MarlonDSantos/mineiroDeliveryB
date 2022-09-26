@@ -1,0 +1,42 @@
+<h1><i class="icofont-send-mail"></i> Fale Conosco</h1>
+<br>
+<!-- 
+<form (ngSubmit)="Submeter()">
+    <label for="">Nome
+        <input type="text" name="nome" [(ngModel)]="contato.nome" required maxLength="80" minLength="2">
+    </label>
+    <label for="">Email
+        <input type="email" name="email"
+                        [(ngModel)]="contato.email" onChange={handleChange} >
+    </label>
+    <label for="">Telefone
+        <input type="text" name="telefone"
+                        [(ngModel)]="contato.telefone" required maxLength="20">
+    </label>
+    <br>
+    <label for="">Mensagem
+        <input type="text" name="mensagem"
+                        [(ngModel)]="contato.mensagem" required maxLength="200">
+    </label>
+    <input type="submit" value="Cadastrar" class="cadastrar">
+</form> -->
+<div class="contato">
+  <form action="#" class="row g-3">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nome Completo</label>
+        <input type="text" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="Nome Completo" required maxLength="50" minLength="2">
+      </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Deixe aqui sua mensagem!</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required maxLength="200"></textarea>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Enviar Mensagem</button>
+      </div>
+</form>
+
+</div>

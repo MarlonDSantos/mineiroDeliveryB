@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Mono:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
 .bg-laranjaNav{
     /* background-color: #ff6a00; */
     background-color: #941112;
@@ -9,13 +10,17 @@ body{
 }
 main{
     flex: 1 0 auto;
-
+    padding: 6rem 0;
 }
+
 /* Limitar altura do card */
 .card-img{
-    max-height: 620px;
+    max-height: 420px;
     overflow: hidden;
 }
+/* .card{
+    padding-top: 100px;
+} */
 
 @media screen and (min-width:990px){
     
@@ -43,9 +48,294 @@ main{
 li.nav-item a{
     padding: 37px 0;
 }
+
+.listaProdutos table{
+    width: 480px;
 }
+.clientes img {
+    width: 200px;
+    height: 160px;
+}
+
+}
+/* FIM RESPONSIVO */
 .icofont-navigation-menu{
-color: #94111183;
+color: #ffffff;
+}
+
+/* EMPRESA */
+.nossaEmpresa{
+    text-align: center;
+    /* padding-top: 20px; */
+    margin: 10px;
+}
+.nossaEmpresa h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+}
+.nossaEmpresa p{
+    line-height: 1.5em;
+}
+#visitar{
+    text-shadow: #000000;
+    color: #941112;
+    margin-left: 15px;
+    font-family: 'Fira Mono', monospace;
+    
+}
+.nossaEmpresa img{
+    width: 150%;
+    margin: 0;
+    height: 220px;
+    left: 0;
+}
+
+.nossoLocal{
+    background: rgba(128, 128, 128, 0.672);
+    display: block;
+    border: 2px solid darkgray;
+}
+
+/* PRODUTOS */
+.listaProdutos h3{
+    font-size: 37px;
+}
+.listaProdutos{
+    padding-top: 0px;
+}
+.listaProdutos table{
+    width: 900px;
+    background-color:rgba(211, 211, 211, 0.5);
+    
+}
+.listaProdutos td{
+    padding: 6px;
+}
+.listaProdutos td button{
+    background-color: #d52929b0;
+    padding: 3px 15px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+    width: 100px;
+    border-radius: 10px;
+}
+.listaProdutos td button:hover{
+    font-style: italic;
+   background-color: rgba(128, 255, 0, 0.653);
+}
+
+table{
+    /* width: 70%; */
+    margin: 1% auto auto auto;
+    border: 1px solid darkslategrey;
+    border-spacing: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategrey;
+    color: black;
+    border-radius: 5px;
+}
+
+table th{
+    border-spacing: 0px;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    background-color: darkslategrey;
+    width: 200px;
+}
+
+table td{
+    border: 1px solid darkslategrey;
+    border-spacing: 0px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+/* FIM LISTA PRODUTOS */
+
+/* CONTATO */
+/* .contato form {
+    color: black;
+    box-sizing: border-box;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: block;
+    margin: 5% auto auto auto;
+} */
+/* .contato table{
+    width: 100%;
+    box-sizing: border-box;
+    
+    
+} */
+/* .contato input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} */
+
+.contato button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+
+    /* padding: 18px 30px; */
+    border: none;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background: #4CAF50; */
+    /* border-radius: 5px; */
+    /* min-width: 200px; */
+    /* color: #fff; */
+    /* z-index: 0; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+/* .contato input[type=submit]::before{
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -50px;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent,#ffffff75, transparent);
+    transition: all 1s;
+    z-index: -1;
+    transform: translateX(-120px) skew(-20deg);
+} */
+
+.contato input[type=submit]:hover::before {
+    transform: translateX(300px) skew(-20deg);
+}
+
+.contato button:hover {
+    background-color: rgba(255, 0, 0, 0.742);
+}
+.cadastrar{
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #a04545;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.cadastrar:hover{
+    width: 152px;
+    height: 36px;
+    border-radius: 15px;
+    background-color: #45a049;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+#idTD, #idTH{
+    width: 20px;
+}
+
+input:invalid{
+    border-color: red;
+}
+textarea:invalid{
+    border-color: red;
+}
+input:valid{
+    border-color: rgb(21, 255, 0);
+}
+textarea:valid{
+    border-color: rgb(21, 255, 0);
+}
+input:focus, textarea:focus{
+    border-color: #0040ff !important;
+}
+/* thead tbody{
+text-align: center !important;
+align-items: center !important;
+padding: 30px;
+margin: 30px;
+display: inline-block;
+
+} */
+
+/* input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} */
+
+
+/* CLIENTES E PARCEIROS */
+.clientes{
+    padding-bottom: 20px;
+}
+.clientes img {
+    width: 380px;
+    height: 220px;
+    border-radius: 12px;
+    /* box-shadow: 7px 5px 5px 5px rgba(0, 0, 0, 0.555); */
+    
+    padding: auto;
+    margin: 40px 0 0 33px;
+    
+    flex-wrap: wrap;
+
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+    min-width: 200px;
+    z-index: 0;
+    transition: all 0.3s;
+
+    background-color: #fff;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    border: solid 0px var(--light);
+    /* height: 100px; */
+    transition: ease-out all 0.2s;
+
+    filter: grayscale(100%);
+    /* max-height: 70px;
+    width: 100%; */
+    opacity: 0.6;
+
+}
+.clientes img:hover{
+    width: 390px;
+    height: 230px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px 3px rgba(176, 176, 176, 0.443);
+    /* margin-bottom: 20px; */
+    /* transform: translateX(-2px) skew(-2deg); */
+    padding: auto;
+    transition-duration: 0.5s;
+
+    transform: scale(1.2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+
+    filter: none;
+    opacity: 100%;
+
 }
 
 /* FOOTER */
